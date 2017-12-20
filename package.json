@@ -1,0 +1,28 @@
+{
+  "name": "electron-repo",
+  "version": "1.0.0",
+  "description": "electron-repo",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whjin/electron-repo.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "whjin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whjin/electron-repo/issues"
+  },
+  "homepage": "https://github.com/whjin/electron-repo#readme",
+  "devDependencies": {
+    "app": "^0.1.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-window": "^0.4.0"
+  }
+}
