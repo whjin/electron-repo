@@ -12,14 +12,12 @@ app.on('window-all-closed', function () {
 
 app.on('ready', function () {
     mainwindow = new BrowserWindow({width: 800, height: 600});
-    mainwindow.loadURL('D:\\360安全浏览器下载\\红粉世家.txt');
+    mainwindow.loadURL('file://' + __dirname + '/index.html');
 
     mainwindow.openDevTools();
 
-    mainwindow.on('closed',function () {
-        mainwindow=null;
+    mainwindow.on('closed', function () {
+        mainwindow = null;
     })
 });
-
-app.addRecentDocument('D:\\360安全浏览器下载\\红粉世家.txt');
 
